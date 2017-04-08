@@ -3,7 +3,7 @@ My own webpack configure with [happypack](https://github.com/amireh/happypack), 
 
 
 ## Usage
-[I've just tranfered all config files to the `build` folder.] The `build` folder almost includes all config files your projects need, the environment of `development` and `production` are distinguished as you will see. Bascically, **webpack.config.js**, **webpack.dev.config.js** are treated as the entries of `development` and `production` environment, you should first check them out.
+[I've just tranfered all config files to the `build` folder.] The `build` folder almost includes all config files your projects need, the environment of `development` and `production` are distinguished. Bascically, `webpack.config.js`, `webpack.dev.config.js` are treated as corresponding entries of the distinguished environment, go check them out.
 
 ```sh
 >> npm start
