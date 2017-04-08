@@ -3,7 +3,7 @@ My own webpack configure with [happypack](https://github.com/amireh/happypack), 
 
 
 ## Usage
-[I've just tranfered all config files to the `build` folder.] The `build` folder almost includes all config files your projects need, the environment of `development` and `production` are distinguished. Bascically, `webpack.config.js`, `webpack.dev.config.js` are treated as corresponding entries of the distinguished environment, go check them out.
+[I've just tranfered all config files to the `build` folder] The `build` folder includes all config files this repo about, therein the environment of `development` and `production` are distinguished. Bascically, `webpack.config.js`, `webpack.dev.config.js` are corresponding entries of the distinguished environment, go check them out.
 
 ```sh
 >> npm start
@@ -11,6 +11,6 @@ My own webpack configure with [happypack](https://github.com/amireh/happypack), 
 >> npm run build
 ```
 
-It comes with several features out of my `development` config files, `hot-reload`, `happypack`, `auto-start server` and `dashboard` features are all integrated with some options to your choices. The production environment yet comes with more powerful features, like `parallel-webpack`, `Dll`, `UglifyJsParallelPlugin`, `CopyPlugin` and some other nice features. 
+It comes with several features out of my `development` config files, `hot-reload`, `happypack`, `auto-start server` and `dashboard` features are all integrated with some options to tune. The production environment yet comes with more powerful features, like `parallel-webpack`, `Dll`, `UglifyJsParallelPlugin`, `CopyPlugin` and some other nice features. 
 
 All features displayed above are battle-tested, just relax and use it in your project.😊
