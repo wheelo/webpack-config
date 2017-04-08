@@ -8,7 +8,7 @@ var time = Date.now();
 replace({
     regex: /timestamp=(.*)"/g,
     replacement: 'timestamp=' + time + '"',
-    paths: ['./dist/index.html', './dist/register.html'],
+    paths: ['./dist/b.html', './dist/a.html'],
     recursive: true,
     silent: true
 });
