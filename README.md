@@ -8,6 +8,7 @@ My own webpack configure with [happypack](https://github.com/amireh/happypack), 
 ```sh
 >> npm start
 >> npm run dev:env1
+>> npm run build
 ```
 
 It comes with several features out of my `development` config files, `hot-reload`, `happypack`, `auto-start server` and `dashboard` features are all integrated with some options to your choices. The production environment yet comes with more powerful features, like `parallel-webpack`, `Dll`, `UglifyJsParallelPlugin`, `CopyPlugin` and some other nice features. 
