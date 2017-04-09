@@ -15,3 +15,5 @@ The `build` folder nearly includes all config files of this repo, the environmen
 >> npm run build
 ```
 
+## Demo
+- [24Points Game](https://github.com/wheelo/24Points-demo)
