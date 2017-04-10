@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cd ./build;node devserver-watcher.js",
     "dev:env0": "cd ./build;cross-env NODE_ENV=env0 node devserver-watcher.js",
-    "build": "rm -rf ./dist/*;cd ./build;node build-webpack.js;./build.sh"
+    "build": "rm -rf ./dist/*;cd ./build;node build-webpack.js;node timestamp.js;./build.sh"
   },
   "keywords": [
     "webpack",
